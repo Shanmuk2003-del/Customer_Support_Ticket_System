@@ -1,0 +1,25 @@
+# Core runtime dependencies for the Financial Customer Complaint
+# Classification and Routing System.
+#
+# Install with:    pip install -r requirements.txt
+#
+# These versions are pinned to the packages verified in the project
+# virtual environment.
+
+# Streamlit - web application framework (app.py)
+streamlit==1.67.0
+
+# pandas - data manipulation and analysis (app.py, train_models.py,
+#          split_dataset.py, and dataset inspection scripts)
+pandas==3.1.1
+
+# scikit-learn - machine learning library: TfidfVectorizer,
+#                LogisticRegression, LinearSVC, metrics
+scikit-learn==1.9.1
+
+# joblib - model serialization (predict_complaint.py, process_complaint.py,
+#          train_models.py)
+joblib==1.6.0
+
+# numpy - numerical arrays, used directly by train_models.py
+numpy==2.5.4
